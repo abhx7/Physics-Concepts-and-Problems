@@ -36,6 +36,7 @@ The problem is to minimize T, subject to the boundary conditions A (x<sub>1</sub
 ### 4. Calculus of Variations
 - Using the **Euler-Lagrange equation**, the optimal curve is derived to be a segment of a **cycloid**.
 
+![Image](https://github.com/abhx7/Cool-Physics-Problems/blob/main/Problem%20of%20Fastest%20Descent/brachistochrone.png)
 ---
 
 ## Visualizing the Cycloid
