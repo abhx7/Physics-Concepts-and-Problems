@@ -1,51 +1,39 @@
 import numpy as np
+from scipy.optimize import fsolve
 import matplotlib.pyplot as plt
 
-# Define constants
-g = 9.81  # Acceleration due to gravity in m/s^2
-A = np.array([0, 50])  # Starting point
-B = np.array([60, 0])  # Ending point
+# Boundary conditions
+x1, y1 = 0, 4  # Start point
+x2, y2 = 1, 0  # End point
+delta_x = x2 - x1
+delta_y = y1 - y2
 
-# Cycloid parameters to fit the brachistochrone curve
-theta_max = np.pi  # Maximum angle (adjust based on end point)
-num_points = 100  # Number of points along the curve
-theta = np.linspace(0, theta_max, num_points)
+# Define the system of equations to determine theta_end
+def equations(theta_end):
+    r = delta_y / (1 - np.cos(theta_end))  # Radius based on height
+    return r * (theta_end - np.sin(theta_end)) - delta_x  # Horizontal distance constraint
 
-# Calculate the radius of the cycloid based on the desired end point
-R = B[1] / (1 - np.cos(theta_max))  # Radius of the cycloid circle
+# Solve for theta_end
+theta_end = fsolve(equations, np.pi)[0]
 
-# Parametric equations for the cycloid (Brachistochrone curve)
-x_cycloid = A[0] + R * (theta - np.sin(theta))
-y_cycloid = A[1] - R * (1 - np.cos(theta))
+# Compute radius
+r = delta_y / (1 - np.cos(theta_end))
 
-# Calculate time of descent along the cycloid path
-ds = np.sqrt(np.diff(x_cycloid)**2 + np.diff(y_cycloid)**2)  # Path differentials
-velocities = np.sqrt(2 * g * (A[1] - y_cycloid[:-1]))  # Speeds at each point
-time_of_descent = np.sum(ds / velocities)  # Total time of descent
+print(f"Radius (r): {r}")
+print(f"Final Angle (theta_end): {theta_end}")
 
-# Display time of descent
-print(f"Optimized time of descent: {time_of_descent:.4f} seconds")
+# Cycloid parameterization
+theta = np.linspace(0, theta_end, 100)
+x = r * (theta - np.sin(theta)) + x1  # Offset to start at x1
+y = y1 - r * (1 - np.cos(theta))  # Offset to start at y1
 
-# Visualization
-plt.figure(figsize=(10, 6))
-
-# Plot the brachistochrone curve
-plt.plot(x_cycloid, y_cycloid, 'r-', linewidth=2, label='Fastest Descent Path')
-
-# Mark starting and ending points
-plt.plot(A[0], A[1], 'bo', markersize=8, label='Start Point A')
-plt.plot(B[0], B[1], 'go', markersize=8, label='End Point B')
-
-# Add labels and formatting
-plt.title('Fastest Descent Path (Brachistochrone Curve)')
-plt.xlabel('x (horizontal position)')
-plt.ylabel('y (vertical position)')
+# Visualization of the Brachistochrone Curve
+plt.figure(figsize=(8, 6))
+plt.plot(x, y, label="Brachistochrone Curve (Cycloid)", color='blue', linewidth=2)
+plt.scatter([x1, x2], [y1, y2], color='red', zorder=5, label="Points A and B", s=100)
+plt.title("Brachistochrone Problem Solution")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.gca()#.invert_yaxis()  # Invert y-axis to reflect gravity
 plt.legend()
-plt.grid(True)
-plt.axis('equal')
-
-# Annotate points
-plt.text(A[0], A[1], '  A', verticalalignment='bottom', fontsize=12, fontweight='bold', color='blue')
-plt.text(B[0], B[1], '  B', verticalalignment='top', fontsize=12, fontweight='bold', color='green')
-
 plt.show()
