@@ -31,7 +31,7 @@ The time of descent  T  for a particle sliding along a curve y(x) from point A t
 
 Where, g : Acceleration due to gravity.
 
-The problem is to minimize T, subject to the boundary conditions A(x_1, y_1)  and  B(x_2, y_2) . 
+The problem is to minimize T, subject to the boundary conditions A (x1, y1)  and  B (x2, y2) . 
 
 ### 4. Calculus of Variations
 - Using the **Euler-Lagrange equation**, the optimal curve is derived to be a segment of a **cycloid**.
