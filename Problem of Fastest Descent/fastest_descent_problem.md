@@ -39,13 +39,15 @@ The problem is to minimize T, subject to the boundary conditions A (x1, y1)  and
 ---
 
 ## Visualizing the Cycloid
+
 A cycloid can be described parametrically as:
-\[
-x(\theta) = r(\theta - \sin\theta), \quad y(\theta) = r(1 - \cos\theta)
-\]
+
+![Equation](https://quicklatex.com/cache3/3e/ql_55a24f9f8bf03b4885369eec4f5fcf3e_l3.png)
+
 Where:
-- \( r \): Radius of the generating circle.
-- \( \theta \): Parameter varying from \( 0 \) to \( \theta_{\text{max}} \), determining the extent of the curve.
+
+- r : Radius of the generating circle.
+- θ : Parameter varying from  0 to θ<sub>max</sub>, determining the extent of the curve.
 
 ---
 
