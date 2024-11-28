@@ -68,3 +68,16 @@ legend({'Contour of f(x)', 'Path of Descent'}, 'Location', 'best');
 set(gca, 'FontSize', 12, 'FontWeight', 'bold');
 
 hold off;
+
+% Surface plot of the function
+figure;
+surf(X, Y, Z, 'EdgeColor', 'none');
+colormap(jet);
+colorbar;
+title('Surface Plot of Objective Function f(x)');
+xlabel('x_1');
+ylabel('x_2');
+zlabel('f(x)');
+set(gca, 'FontSize', 12, 'FontWeight', 'bold');
+grid on;
+
