@@ -26,14 +26,11 @@ The **Brachistochrone problem** is a classic problem in physics and mathematics.
 
 ### 3. Mathematical Formulation
 The time of descent \( T \) for a particle sliding along a curve \( y(x) \) from point \( A \) to \( B \) is given by:
-```latex
-\[
-T = \int_A^B \sqrt{\frac{1 + \left( \frac{dy}{dx} \right)^2}{2gy}} \, dx
-\]
+$ T = \int_A^B \sqrt{\frac{1 + \left( \frac{dy}{dx} \right)^2}{2gy}} \, dx $
 Where:
 - \( g \): Acceleration due to gravity.
 - The problem is to minimize \( T \), subject to the boundary conditions \( A(x_1, y_1) \) and \( B(x_2, y_2) \).
-```
+
 ### 4. Calculus of Variations
 - Using the **Euler-Lagrange equation**, the optimal curve is derived to be a segment of a **cycloid**.
 
