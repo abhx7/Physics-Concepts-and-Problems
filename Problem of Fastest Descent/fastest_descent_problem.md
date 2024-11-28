@@ -26,7 +26,7 @@ The **Brachistochrone problem** is a classic problem in physics and mathematics.
 
 ### 3. Mathematical Formulation
 The time of descent \( T \) for a particle sliding along a curve \( y(x) \) from point \( A \) to \( B \) is given by:
-```;atek
+```latek
 \[
 T = \int_A^B \sqrt{\frac{1 + \left( \frac{dy}{dx} \right)^2}{2gy}} \, dx
 \]
