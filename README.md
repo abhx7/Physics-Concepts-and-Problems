@@ -23,3 +23,5 @@ Whether you're a fellow enthusiast or someone just starting to explore the beaut
 ## Interesting Topics
 
 ![Gauss' derivation of the linking number of knots](https://www.linkedin.com/posts/kiryl-piasotski-6a77a4290_exploring-gauss-derivation-of-the-linking-activity-7281058832099807232-Esir/?utm_source=share&utm_medium=member_android)
+
+https://www.linkedin.com/posts/patricio-r-99167a203_gravitational-waves-may-prove-black-holes-activity-7294199656484331520-LtDL/?utm_source=share&utm_medium=member_android
