@@ -23,6 +23,9 @@ Whether you're a fellow enthusiast or someone just starting to explore the beaut
 ## Maximisation through Lagrange Multipliers
 also mention other techniques
 
+## Momentum Conservation
+𝐅𝐑𝐎𝐌 𝐑𝐎𝐂𝐊𝐄𝐓𝐒 𝐓𝐎 𝐑𝐎𝐓𝐀𝐓𝐈𝐍𝐆 𝐒𝐓𝐀𝐑𝐒 𝐓𝐇𝐄 𝐔𝐍𝐈𝐕𝐄𝐑𝐒𝐀𝐋 𝐏𝐎𝐖𝐄𝐑 𝐎𝐅 [𝐌𝐎𝐌𝐄𝐍𝐓𝐔𝐌 𝐂𝐎𝐍𝐒𝐄𝐑𝐕𝐀𝐓𝐈𝐎𝐍](https://www.linkedin.com/posts/girish-kumar-ramaiah-85507257_%F0%9D%90%85%F0%9D%90%91%F0%9D%90%8E%F0%9D%90%8C-%F0%9D%90%91%F0%9D%90%8E%F0%9D%90%82%F0%9D%90%8A%F0%9D%90%84%F0%9D%90%93%F0%9D%90%92-%F0%9D%90%93%F0%9D%90%8E-%F0%9D%90%91%F0%9D%90%8E%F0%9D%90%93%F0%9D%90%80%F0%9D%90%93%F0%9D%90%88-activity-7329014741413060608-CxvH/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+
 ## Interesting Topics
 
 - Gauss' Derivation of the Linking Number of Knots - [LinkedIn Post](https://www.linkedin.com/posts/kiryl-piasotski-6a77a4290_exploring-gauss-derivation-of-the-linking-activity-7281058832099807232-Esir/?utm_source=share&utm_medium=member_android)
