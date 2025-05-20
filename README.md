@@ -36,3 +36,4 @@ also mention other techniques
 - [Work Energy in Dynamical Systems](https://www.linkedin.com/posts/lonny-thompson_work-energy-principles-to-solve-dynamic-motion-activity-7311702917307072513-HPPT/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [The Beauty of the Three Body Problem](https://www.linkedin.com/posts/philipp-kozin_threebodyproblem-poincare-chaostheory-activity-7315803457909657601-UoMy/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [17 Equations that changed the World](https://www.linkedin.com/posts/activity-7314496527014490112-s1XP/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
+- [Jacobian](https://www.linkedin.com/posts/damjangnjidic_fea-cfd-meshquality-activity-7330536526407266304-VeqW?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
