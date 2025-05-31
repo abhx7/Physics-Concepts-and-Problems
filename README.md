@@ -17,7 +17,7 @@ Whether you're a fellow enthusiast or someone just starting to explore the beaut
 
 
 ##  Principle of Least Action
-![This Principle is in EVERY Physics Theory. So Why Don’t We Talk About It Enough?](https://img.youtube.com/vi/B1nRfaLThF4/0.jpg)](https://www.youtube.com/watch?v=B1nRfaLThF4)
+[![This Principle is in EVERY Physics Theory. So Why Don’t We Talk About It Enough?](https://img.youtube.com/vi/B1nRfaLThF4/0.jpg)](https://www.youtube.com/watch?v=B1nRfaLThF4)
 
 
 ## Maximisation through Lagrange Multipliers
