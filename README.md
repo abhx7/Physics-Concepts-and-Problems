@@ -38,6 +38,7 @@ also mention other techniques
 - [17 Equations that changed the World](https://www.linkedin.com/posts/activity-7314496527014490112-s1XP/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - [Jacobian](https://www.linkedin.com/posts/damjangnjidic_fea-cfd-meshquality-activity-7330536526407266304-VeqW?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
 - For everyone that feels the [electromagnetics is FM](https://www.linkedin.com/posts/dan-adkins-2268322a2_microwave-112-electromagnetics-114-activity-7332052166611775489-jwzD/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ), "Freakin' Magic", here's a paradox posed to many new engineers.
+- [Gravity Visualisation in C++ Tutorial](https://youtu.be/_YbGWoUaZg0?si=G-R9a9n3lqTbKcmv)
  
 ## Basics
 - [Moment of Inertia](https://www.linkedin.com/posts/suraj-sarkar-2000sps1236_moment-of-inertia-handwrittennotes-activity-7333333709745528835-SGgy/?utm_source=share&utm_medium=member_android&rcm=ACoAAD-ruCgBJnujmeLzmj1X4DpLLTuxktERedQ)
